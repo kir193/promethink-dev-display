@@ -7,6 +7,7 @@
 - [`promethink-local-clean`](https://github.com/kir193/promethink-local-clean) - frontend / desktop shell
 - [`promethink-dev-index`](https://github.com/kir193/promethink-dev-index) - umbrella map всей product-экосистемы
 - [`promethink-dev-api`](https://github.com/kir193/promethink-dev-api) - backend/frontend contract bundle
+- [`promethink-dev-sprint-lab`](https://github.com/kir193/promethink-dev-sprint-lab) - dedicated sprint source repo for project data
 - [`simple-local-agent`](https://github.com/kir193/simple-local-agent) - local agent backend runtime
 
 ## Display / adjacent repositories
