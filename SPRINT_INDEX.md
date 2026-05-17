@@ -4,7 +4,7 @@
 
 - super-sprint: `D.01` - display source foundation
 - goal: собрать display memory для спринтов, roadmap и prompt packs
-- boundary review: after `D-S04`
+- boundary review: after `D-S05`
 
 ## Sprints in the current batch
 
@@ -12,6 +12,7 @@
 - `D-S02` - add sprint index and super sprint log
 - `D-S03` - add prompt packs for simple-local-agent context
 - `D-S04` - add fixtures and manual QA payloads
+- `D-S05` - add trace disclosure model and collapsible execution summaries
 
 ## Current status
 
@@ -19,6 +20,7 @@
 - `D-S02` - planned
 - `D-S03` - planned
 - `D-S04` - planned
+- `D-S05` - planned
 
 ## Display rules
 

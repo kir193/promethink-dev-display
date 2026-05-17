@@ -11,9 +11,9 @@ Type: display planning container
 ## Current super-sprint
 
 - Super-sprint: `D.01`
-- Cadence: 4 display sprints
+- Cadence: 5 display sprints
 - Goal: prepare sprint source read-model, prompt packs and fixtures for UI display
-- Boundary review: after `D-S04`
+- Boundary review: after `D-S05`
 
 ## Sprints inside the batch
 
@@ -21,6 +21,7 @@ Type: display planning container
 - `D-S02` - sprint index and super sprint log
 - `D-S03` - prompt packs for `simple-local-agent` context
 - `D-S04` - fixtures and QA payloads
+- `D-S05` - trace disclosure and collapsible step summaries
 
 ## Execution rule
 
@@ -37,3 +38,4 @@ Inside the batch:
 - provide a stable read-model for UI;
 - keep prompt/context guidance close to the display source;
 - give the agent a short, reusable way to explain the current context.
+- give the UI a short, collapsible way to show execution trace.

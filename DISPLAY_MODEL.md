@@ -63,7 +63,30 @@ type StepStreamEvent =
 - If source is stale, show warning and keep the source label visible.
 - Status / health metrics may still come from governance snapshot if needed.
 
-## 6. Prompt pack output
+## 6. Trace disclosure model
+
+Trace should be visible in a collapsible form inside the existing shell, not as a separate panel.
+
+```ts
+type ExecutionTraceDisclosure = {
+  open: boolean;
+  summary?: string;
+  sessionId?: string;
+  executionId?: string;
+  notes: string[];
+  steps: Array<{
+    id: string;
+    number: string;
+    title: string;
+    status: 'active' | 'done' | 'blocked';
+    notes?: string[];
+  }>;
+  warnings: string[];
+  error?: string;
+};
+```
+
+## 7. Prompt pack output
 
 Prompt packs in this repo should be short and should answer:
 
@@ -72,7 +95,7 @@ Prompt packs in this repo should be short and should answer:
 3. which data must not be mixed;
 4. what the expected display shape is.
 
-## 7. Recommended UI sections
+## 8. Recommended UI sections
 
 - mission brief
 - sprint protocol
@@ -80,3 +103,4 @@ Prompt packs in this repo should be short and should answer:
 - live stream summary
 - source label
 - empty state message
+- collapsible trace disclosure

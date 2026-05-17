@@ -1,0 +1,36 @@
+{
+  "trace": {
+    "open": true,
+    "summary": "Project sprint source hydrated and execution traced step by step.",
+    "sessionId": "sess-001",
+    "executionId": "exec-001",
+    "notes": [
+      "Loaded explicit sprint source from the target repo.",
+      "Mapped stream events to short readable summaries.",
+      "Kept raw reasoning out of the main shell."
+    ],
+    "steps": [
+      {
+        "id": "step-001",
+        "number": "01",
+        "title": "Inspect source",
+        "status": "done",
+        "notes": [
+          "Explicit sprint source found.",
+          "No fallback to governance snapshot."
+        ]
+      },
+      {
+        "id": "step-002",
+        "number": "02",
+        "title": "Render sprint cards",
+        "status": "active",
+        "notes": [
+          "Sprint cards are sourced from the read-model.",
+          "Trace stays collapsible inside the current shell."
+        ]
+      }
+    ],
+    "warnings": []
+  }
+}

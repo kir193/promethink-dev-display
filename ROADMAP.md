@@ -52,9 +52,19 @@
 **Budget:** `M`  
 **Stop condition:** frontend умеет показывать sprint source и step stream из read-model.
 
+### Phase 6 - Trace disclosure and collapsible execution summaries
+
+- store a short trace disclosure model for the shell UI;
+- keep step-by-step execution summaries collapsible inside the existing layout;
+- add prompts and fixtures that describe trace output without raw reasoning dumps.
+
+**Budget:** `S/M`  
+**Stop condition:** frontend can render a readable collapsible trace inside the current shell.
+
 ## Working rules
 
 1. Не использовать `governance.snapshot` как источник project sprint list.
 2. Если sprint source не подключён, показывать empty state.
 3. Prompt packs должны быть короткими, reusable и versioned.
 4. Fixtures должны быть читаемыми и иметь стабильную структуру.
+5. Trace disclosure should stay collapsible and separate from sprint metadata.

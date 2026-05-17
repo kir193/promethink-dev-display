@@ -1,5 +1,9 @@
 # Promethink Dev Display
 
+This repo stores the display/read-model layer for Promethink Dev.
+It is the place for prompt packs, sprint read-models, fixtures, and trace shapes.
+Use it to keep UI-facing data separate from runtime backend behavior.
+
 Этот репозиторий хранит display-first память для экосистемы Promethink Dev.
 Он нужен не для runtime-бэка и не для методологии как таковой, а для визуализации:
 
@@ -51,4 +55,5 @@
 1. Открой [`DISPLAY_MODEL.md`](./DISPLAY_MODEL.md).
 2. Затем посмотри [`SPRINT_INDEX.md`](./SPRINT_INDEX.md).
 3. Если нужен контекст для агента, открой [`prompts/README.md`](./prompts/README.md).
-4. Для визуального теста используй fixtures из [`fixtures/`](./fixtures).
+4. Для самого короткого brief открой [`prompts/10_second_context.md`](./prompts/10_second_context.md).
+5. Для визуального теста используй fixtures из [`fixtures/`](./fixtures).
