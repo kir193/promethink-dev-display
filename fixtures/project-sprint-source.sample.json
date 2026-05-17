@@ -1,0 +1,79 @@
+{
+  "ok": true,
+  "sourceType": "repo",
+  "sourceRef": "kir193/promethink-local-clean",
+  "sourceMetadata": {
+    "repoName": "promethink-local-clean",
+    "branch": "main",
+    "owner": "kir193",
+    "projectName": "Promethink Cockpit"
+  },
+  "lastSyncedAt": "2026-05-17T00:00:00Z",
+  "activeSprint": {
+    "id": "P-S03",
+    "number": "03",
+    "title": "Live stream and source split",
+    "status": "active"
+  },
+  "sprints": [
+    {
+      "id": "P-S01",
+      "number": "01",
+      "title": "Command path",
+      "description": "Connect the command bar to the backend without changing the shell layout.",
+      "timestampLabel": "готово",
+      "status": "done",
+      "tasks": [
+        {
+          "id": "P-S01-1",
+          "number": "01.1",
+          "size": "M",
+          "title": "Wire the command bar to the service layer",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "id": "P-S02",
+      "number": "02",
+      "title": "Snapshot hydration",
+      "description": "Hydrate the existing shell from explicit source data only.",
+      "timestampLabel": "готово",
+      "status": "done",
+      "tasks": [
+        {
+          "id": "P-S02-1",
+          "number": "02.1",
+          "size": "M",
+          "title": "Show project sprint data from sprint-source",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "id": "P-S03",
+      "number": "03",
+      "title": "Live stream",
+      "description": "Summaries of execution steps and statuses.",
+      "timestampLabel": "в работе",
+      "status": "active",
+      "tasks": [
+        {
+          "id": "P-S03-1",
+          "number": "03.1",
+          "size": "M",
+          "title": "Map step events to readable summaries",
+          "status": "active"
+        },
+        {
+          "id": "P-S03-2",
+          "number": "03.2",
+          "size": "S",
+          "title": "Keep raw reasoning out of the shell",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}
