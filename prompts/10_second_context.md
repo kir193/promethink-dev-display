@@ -1,30 +1,29 @@
-# 10 Second Context
+# 10-секундный контекст
 
-You are working with the Promethink Dev display repo.
+Вы работаете с Promethink Dev display repo.
 
-Use it to prepare read-models for UI, not runtime behavior.
+## Что важно
 
-## What matters
+- этот repo нужен для display read-models, а не для runtime behavior;
+- project sprint data должны приходить из explicit sprint source;
+- `governance.snapshot` — только product health и status;
+- step stream отделён от sprint metadata;
+- project sprint list — это structured data, а не chat reply;
+- missing source должен рендериться как empty state;
+- trace должен быть компактным, читаемым и collapsible.
 
-- project sprint data must come from an explicit sprint source;
-- `governance.snapshot` is for product health and status only;
-- step stream is separate from sprint metadata;
-- project sprint list is structured data, not a chat reply;
-- missing source must render as empty state;
-- trace should stay compact, readable, and collapsible.
+## Не смешивать
 
-## Do not mix
+- agent governance batch history;
+- target project sprint list;
+- raw private reasoning;
+- shell layout changes.
 
-- agent governance batch history
-- target project sprint list
-- raw private reasoning
-- shell layout changes
+## Ожидаемый результат
 
-## Expected output shape
-
-- sprint cards
-- task cards
-- source label
-- readable step summaries
-- optional trace disclosure
-- empty state when no source exists
+- sprint cards;
+- task cards;
+- source label;
+- readable step summaries;
+- optional trace disclosure;
+- empty state, если source отсутствует.

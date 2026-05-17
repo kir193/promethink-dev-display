@@ -1,17 +1,17 @@
-# Visual Display Brief
+# Краткий brief для визуального display
 
 Этот brief нужен, чтобы подготовить данные для экрана Promethink.
 
-## UI sections
+## Секции UI
 
-- mission brief
-- sprint protocol
-- status panel
-- live stream summary
-- source label
-- empty state
+- mission brief;
+- sprint protocol;
+- status panel;
+- live stream summary;
+- source label;
+- empty state.
 
-## Rules
+## Правила
 
 1. Не менять shell layout.
 2. Не добавлять новые панели.

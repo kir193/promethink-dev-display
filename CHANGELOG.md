@@ -1,15 +1,15 @@
-# Changelog
+# Журнал изменений
 
 ## 0.1.1
 
-- Added an ultra-short prompt pack for quick agent context.
-- Added a collapsible trace disclosure model for the shell UI.
-- Added a sample fixture for trace rendering and display checks.
-- Clarified that the display repo is a read-model layer and not runtime backend code.
+- Добавлен ultra-short prompt pack для быстрого agent context.
+- Добавлена collapsible trace disclosure model для shell UI.
+- Добавлен sample fixture для trace rendering и display checks.
+- Уточнено, что display repo — это read-model layer, а не runtime backend code.
 
 ## 0.1.0
 
-- Created the display repo for Promethink Dev.
-- Added repository maps, roadmap, sprint index, and super sprint log.
-- Added prompt packs for quickly explaining `simple-local-agent` context.
-- Added fixtures and display models for UI checks.
+- Создан display repo для Promethink Dev.
+- Добавлены repository maps, roadmap, sprint index и super sprint log.
+- Добавлены prompt packs для быстрого объяснения контекста `simple-local-agent`.
+- Добавлены fixtures и display models для UI checks.

@@ -1,24 +1,25 @@
-# Prompt Packs
+# Пакеты промптов
 
-This folder stores short reusable prompts for the Promethink Dev display/read-model layer.
+Эта папка хранит короткие reusable prompts для display/read-model слоя
+Promethink Dev.
 
-Use these prompts to quickly explain:
+Используйте их, чтобы быстро объяснить:
 
-- what this repo is;
-- where project sprint data comes from;
-- what must not be mixed with `governance.snapshot`;
-- how to present step stream and empty states;
-- how to keep trace output compact and readable.
+- что это за repo;
+- откуда приходят project sprint data;
+- что нельзя смешивать с `governance.snapshot`;
+- как показывать step stream и empty states;
+- как держать trace output компактным и читаемым.
 
-## Files
+## Файлы
 
-- [`brief_agent_context.md`](./brief_agent_context.md) - short overall brief
-- [`project_sprint_source.md`](./project_sprint_source.md) - how to read sprint source
-- [`step_stream_summary.md`](./step_stream_summary.md) - how to summarize step events
-- [`visual_display_brief.md`](./visual_display_brief.md) - how to prepare UI-shaped data
-- [`10_second_context.md`](./10_second_context.md) - ultra-short agent context pack
+- [`brief_agent_context.md`](./brief_agent_context.md) — короткий общий brief
+- [`project_sprint_source.md`](./project_sprint_source.md) — как читать sprint source
+- [`step_stream_summary.md`](./step_stream_summary.md) — как суммировать step events
+- [`visual_display_brief.md`](./visual_display_brief.md) — как готовить UI-shaped data
+- [`10_second_context.md`](./10_second_context.md) — ultra-short agent context pack
 
-## Rule
+## Правило
 
-Prompts should stay short, reusable, and versioned.
-If the meaning changes, create a new file instead of overwriting history.
+Промпты должны быть короткими, reusable и versioned.
+Если смысл меняется, создавайте новый файл вместо того, чтобы переписывать историю.

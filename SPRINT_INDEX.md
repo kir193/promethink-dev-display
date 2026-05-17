@@ -1,35 +1,35 @@
-# Sprint Index
+# Индекс спринтов
 
-## Super-sprint layer
+## Уровень super-sprint
 
-- super-sprint: `D.01` - display source foundation
-- goal: собрать display memory для спринтов, roadmap и prompt packs
-- boundary review: after `D-S05`
+- super-sprint: `D.01` — display source foundation;
+- цель: собрать display memory для спринтов, roadmap и prompt packs;
+- review границы: после `D-S05`.
 
-## Sprints in the current batch
+## Спринты в текущем батче
 
-- `D-S01` - define display read-model and source selection rules
-- `D-S02` - add sprint index and super sprint log
-- `D-S03` - add prompt packs for simple-local-agent context
-- `D-S04` - add fixtures and manual QA payloads
-- `D-S05` - add trace disclosure model and collapsible execution summaries
+- `D-S01` — определить display read-model и правила выбора source;
+- `D-S02` — добавить sprint index и super sprint log;
+- `D-S03` — добавить prompt packs для контекста `simple-local-agent`;
+- `D-S04` — добавить fixtures и ручные QA payloads;
+- `D-S05` — добавить trace disclosure model и collapsible execution summaries.
 
-## Current status
+## Текущий статус
 
-- `D-S01` - planned
-- `D-S02` - planned
-- `D-S03` - planned
-- `D-S04` - planned
-- `D-S05` - planned
+- `D-S01` — planned;
+- `D-S02` — planned;
+- `D-S03` — planned;
+- `D-S04` — planned;
+- `D-S05` — planned.
 
-## Display rules
+## Правила display
 
-1. Project sprint data must come from explicit sprint source or fixture source.
-2. Agent governance data is not a sprint list source for project work.
-3. Step stream is separate from sprint source.
-4. Empty state is valid and should not be replaced with unrelated batch data.
+1. Project sprint data должны приходить только из explicit sprint source или fixture source.
+2. Agent governance data — не источник sprint list для project work.
+3. Step stream отделён от sprint source.
+4. Empty state валиден и не должен заменяться чужими batch data.
 
-## File map
+## Карта файлов
 
 - `ROADMAP.md`
 - `SUPER_SPRINT_LOG.md`

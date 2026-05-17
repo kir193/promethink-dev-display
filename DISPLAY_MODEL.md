@@ -1,4 +1,4 @@
-# Display Model
+# Модель отображения
 
 Этот файл описывает формы данных, которые удобно показывать в UI.
 
@@ -58,14 +58,15 @@ type StepStreamEvent =
 
 ## 5. Empty state rules
 
-- If sprint source is missing, show empty state.
-- Do not use `governance.snapshot` to fill project sprint list.
-- If source is stale, show warning and keep the source label visible.
-- Status / health metrics may still come from governance snapshot if needed.
+- Если sprint source отсутствует, показывать empty state.
+- Не использовать `governance.snapshot` для заполнения project sprint list.
+- Если source stale, показывать warning и оставлять source label видимым.
+- Status / health metrics по-прежнему могут приходить из governance snapshot, если это нужно.
 
 ## 6. Trace disclosure model
 
-Trace should be visible in a collapsible form inside the existing shell, not as a separate panel.
+Trace должен быть видим в collapsible виде внутри существующего shell, а не как
+отдельная панель.
 
 ```ts
 type ExecutionTraceDisclosure = {
@@ -88,19 +89,19 @@ type ExecutionTraceDisclosure = {
 
 ## 7. Prompt pack output
 
-Prompt packs in this repo should be short and should answer:
+Prompt packs в этом repo должны быть короткими и отвечать на 4 вопроса:
 
-1. what this repo is;
-2. which sprint source should be used;
-3. which data must not be mixed;
-4. what the expected display shape is.
+1. что это за repo;
+2. какой sprint source использовать;
+3. что нельзя смешивать;
+4. какой ожидается display shape.
 
-## 8. Recommended UI sections
+## 8. Рекомендуемые UI sections
 
-- mission brief
-- sprint protocol
-- status panel
-- live stream summary
-- source label
-- empty state message
-- collapsible trace disclosure
+- mission brief;
+- sprint protocol;
+- status panel;
+- live stream summary;
+- source label;
+- empty state message;
+- collapsible trace disclosure.

@@ -1,13 +1,14 @@
-# Project Sprint Source Brief
+# Brief по источнику спринтов проекта
 
-Используй этот brief, когда нужно показать спринты проекта, а не спринты самого агента.
+Используйте этот brief, когда нужно показать спринты проекта, а не спринты
+самого агента.
 
-## Правила источника
+## Правила source
 
-1. Если у проекта есть sprint metadata в репо - используй `source_type=repo`.
-2. Если sprint metadata нет - используй `source_type=store`.
-3. Если источника нет - верни empty state и warning.
-4. Никогда не подставляй `governance.snapshot` как sprint list source.
+1. Если у проекта есть sprint metadata в repo — используйте `source_type=repo`.
+2. Если sprint metadata нет — используйте `source_type=store`.
+3. Если источника нет — верните empty state и warning.
+4. Никогда не подставляйте `governance.snapshot` как sprint list source.
 
 ## Что возвращать
 
@@ -21,6 +22,6 @@
 
 ## Что не делать
 
-- не использовать агентские batch/sprint history как project sprint list;
+- не использовать agent batch/sprint history как project sprint list;
 - не менять визуальную композицию экрана;
-- не прятать отсутствие источника за чужими спринтами.
+- не скрывать отсутствие source за чужими спринтами.
