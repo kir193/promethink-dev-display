@@ -24,6 +24,7 @@
 - [`DISPLAY_MODEL.md`](./DISPLAY_MODEL.md) — модель данных для отрисовки
 - [`prompts/`](./prompts) — короткие prompt packs для агента
 - [`fixtures/`](./fixtures) — примерные payload'ы для UI и QA
+- [`prompts/promethink_dev_ui_msw_handoff.md`](./prompts/promethink_dev_ui_msw_handoff.md) — handoff для добавления MSW mock mode в Promethink Dev UI
 
 ## Зачем это нужно
 

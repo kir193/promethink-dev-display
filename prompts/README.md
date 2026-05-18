@@ -18,6 +18,7 @@ Promethink Dev.
 - [`step_stream_summary.md`](./step_stream_summary.md) — как суммировать step events
 - [`visual_display_brief.md`](./visual_display_brief.md) — как готовить UI-shaped data
 - [`10_second_context.md`](./10_second_context.md) — ultra-short agent context pack
+- [`promethink_dev_ui_msw_handoff.md`](./promethink_dev_ui_msw_handoff.md) — handoff для добавления MSW mock mode в Promethink Dev UI
 
 ## Правило
 
